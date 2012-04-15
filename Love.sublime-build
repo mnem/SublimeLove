@@ -1,3 +1,5 @@
 {
-    "cmd": ["love", "$file_path"]
+    "cmd": ["love", "$file_path"],
+    "file_regex": "^.*Syntax error: (.*?):(.*?).*$",
+    "selector": "source.lua.love"
 }
